@@ -15,7 +15,7 @@ try:
 except ImportError:
     from bs4 import BeautifulSoup
 
-HOST = "https://www.ticketswap.com"
+HOST = "https://www.ticketswap.com/event/dgtl-amsterdam-2024/sunday-tickets/8c59321d-01c7-48a8-bcfb-b94e4e50edae/2868358"
 
 class TicketSwapMe:
     def __init__(self):
