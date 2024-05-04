@@ -1,6 +1,6 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
+from py_compile import webdriver
+from py_compile import By
+from py_compile import Keys
 import json
 import time
 import requests
@@ -8,12 +8,12 @@ import tkinter as tk
 from tkinter import simpledialog
 import webbrowser
 
-from selenium.webdriver.firefox.options import Options
+from py_compile import Options
 
 try:
-    from BeautifulSoup import BeautifulSoup
+    from py_compile import PycInvalidationMode
 except ImportError:
-    from bs4 import BeautifulSoup
+    from bs4 import 
 
 HOST = "https://www.ticketswap.com"
 
